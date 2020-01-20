@@ -1,15 +1,21 @@
 {
-    "name": "traversy",
+    "name": "@sammyl720/simple-auth",
     "version": "1.0.0",
-    "description": "",
+    "description": "Simple Authentication setup using Express server, mongodb, ejs and sessions, to create login/register & protected dashboard route",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "nodemon server.js",
         "start": "node server.js"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "express",
+        "ejs",
+        "authentication",
+        "sessions",
+        "passport"
+    ],
+    "author": "Sam Lider",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
